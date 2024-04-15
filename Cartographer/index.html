@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burgonya térkép</title>
+    
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+    <div id="end" class="bg-success text-light text-center"></div>
+    
+    <div class="m-3 m-xl-2">
+        <div class="row">
+            <div class="col-12 col-xl-5 mx-auto">
+                <h1>Burgonya térkép</h1>
+                <div class="bg-light rounded p-2 mb-2">
+                    <table id="board" class="table"></table>
+                </div>
+                <div class="p-4 bg-light">
+                    <h5 id="missionMountains" class="my-auto">Körbekerített Hegy mezők: 0 pont</h5>
+                </div>
+            </div>
+            <div class="col-12 col-xl-6 col-xxl-4">
+                <div class="row justify-content-center">
+                        <div class="card text-light bg-success mx-1" style="width: 22%;">
+                            <div class="card-body">
+                            <h4 class="card-title">Tavasz</h4>
+                            <h6 class="card-text" id="s0Display">0 pont</h6>
+                            </div>
+                        </div>
+                        <div class="card text-light bg-danger m-x1" style="width: 22%;">
+                            <div class="card-body">
+                            <h5 class="card-title">Nyár</h5>
+                            <h6 class="card-text" id="s1Display">0 pont</h6>
+                            </div>
+                        </div>
+                        <div class="card text-light bg-warning mx-1" style="width: 22%;">
+                            <div class="card-body">
+                            <h5 class="card-title">Ősz</h5>
+                            <h6 class="card-text" id="s2Display">0 pont</h6>
+                            </div>
+                        </div>
+                        <div class="card text-light bg-info mx-1" style="width: 22%;">
+                            <div class="card-body">
+                            <h5 class="card-title">Tél</h5>
+                            <h6 class="card-text" id="s3Display">0 pont</h6>
+                            </div>
+                        </div>
+                        <h3 id="gameScoreDisplay" class="mx-auto">Összesen: 0 pont</h3>
+                    
+                </div>
+                <div class="row bb">
+                    <h3>Jelenlegi évszak: <span id="seasonDisplay"></span></h3>
+                </div>
+                <div class="row" id="missionsDisplay">
+                    <!--
+                    <div class="col-6">
+                        <h4 id="missionA">A: 0 pont</h4>
+                        <img src="assets/missions_hun/hatarvidek.png" class="img-fluid">
+
+                        <h4 id="missionC">C: 0 pont</h4>
+                        <img src="assets/missions_hun/erdoszele.png" class="img-fluid">
+                    </div>
+                    <div class="col-6">
+                        <h4 id="missionB">B: 0 pont</h4>
+                        <img src="assets/missions_hun/almosvolgy.png" class="img-fluid">
+
+                        <h4 id="missionD">D: 0 pont</h4>
+                        <img src="assets/missions_hun/krumpliontozes.png" class="img-fluid">
+                    </div>
+                    -->
+                </div>
+                <div class="row bb">
+                    <h4>Évszakból hátralévő idő: <span id="elapsedTimeDisplay">7</span>/7</h4>
+                </div>
+                <div class="row"> <h2 >Lehelyezendő elem</h2> </div>
+               
+                <div class="row ">
+                    <div class="col-6 col-xl-3 p-2 bg-light rounded" >
+                        <table id="elementDisplay" class="table"></table>
+                        
+                        
+                    </div>
+                    <div class="col-6 col-xl-2 p-2 bg-light rounded">
+                            <h3 class="">⏱ <span id="timeDisplay"></span></h3>
+                            <button id="rotate" class="button btn-block btn-lg btn-dark mx-1 mx-auto">Forgat</button>
+                            <button id="mirror" class="button btn-block btn-lg btn-dark mx-1 mx-auto">Tükröz</button>
+                            <button id="skip" class="button btn btn-block btn-primary mx-1 mx-auto">⏭</button>
+                    </div>
+                    
+                    
+                    
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
