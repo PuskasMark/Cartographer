@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brawlhalla - Gamemodes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <!--<link rel="stylesheet" href="css/gamemodes.css">-->
+    <link rel="stylesheet" href="css/style.css" title="style">
+    <link rel="alternate stylesheet" type="text/css" href="css/nagybetus.css" title="nagybetus">
+
+    
+</head>
+<body>
+    <nav class="kipozicional">
+        <a href="#content">Jump to content</a>
+      </nav>
+
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg bg-dark bg-body-tertiary" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="img/Logo2.png" alt="NavLogo" height="36"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                <a class="nav-link active" href="gamemodes.html">Gamemodes</a>
+                <a class="nav-link" href="legends.html">Legends</a>
+                <a class="nav-link" href="weapons.html">Weapons</a>
+                </div>
+                <div class="navr navbar-nav ms-auto">
+                    <a class="nav-link" id="nagybetu" href="#" onclick="setActiveStyleSheet('nagybetus'); return false;"><span class="ikon"></span>Big font version</a>
+                    <a class="nav-link" id="normalbetu" href="#" onclick="setActiveStyleSheet('style'); return false;"><span class="ikon"></span>Normal version</a>
+                  </div>
+            </div>
+            </div>
+        </nav>
+    </header>
+    <main id="content">
+    <div class="mx-auto col-12 col-md-11 col-xl-9">
+        <article>
+            <div id="CM" class="star">
+                <h1>Casual Matchmaking</h1>
+                <p>
+                    <b>Casual Matchmaking</b> is one of the Modes available in the game Brawlhalla. As the name implies, the mode is primarily meant for more <b>casual</b> players, compared to the Ranked mode.
+                </p>
+                <p>
+                    You can only queue <b>solo</b> in this mode, meaning you will be placed against a <b>random</b> opponent.
+                </p>
+                <p>
+                    There are <b>four</b> gamemodes that can be queued for when entering <b>Casual Matchmaking</b>. When queuing for any of these modes, the player can select one map to <b>ban</b> from play in the Lobby settings.
+                </p>
+            </div>
+        </article>
+        <a href="img/CasualMatchmaking.png">
+            <img src="img/CasualMatchmakingLowQ.png" alt="Casual Matchmaking" title="Casual Matchmaking" class="w-100 shrinkable">
+        </a>
+        <article>
+            <ul id="CMlist" class="star py-5 p-md-5">
+                <li>Free-for-all</li>
+                <li class="deepList">
+                    <ul>
+                        <li>
+                            In this mode, the player is up against 3 other players in a 3 minute long Timed match. Players will earn <b>2 points</b> for getting a <b>KO</b>, and lose <b>1 point</b> for getting KO'd. The player with the most points win
+                        </li>
+                        <li>
+                            Up to two people can be in the same queue for a match, whether it be a friend who joined online or locally on the same device
+                        </li>
+                    </ul>
+                </li>
+                <li>Strikeout 1v1</li>
+                <li class="deepList">
+                    <ul>
+                        <li>
+                        This mode is a 1v1 Strikeout battle, where the player and opponent must choose <b>3 different Legends</b> and will swap Legends each time they lose a stock. You cannot queue with a partner in this mode and will be placed against a random opponent.
+                        </li>
+                    </ul>
+                </li>
+                <li>Friendly 2v2</li>
+                <li class="deepList">
+                    <ul>
+                        <li>
+                            This mode is a team Stock battle, with each player having 3 lives. Team damage is <b>turned off</b>, so attacks other than bombs and mines will not hurt your teammate.
+                        </li>
+                        <li>
+                            Two people can queue for a match in this mode, however if a player queues alone they will be placed with a random teammate.
+                        </li>
+                    </ul>
+                </li>
+                <li>Experimental 1v1</li>
+                <li class="deepList">
+                    <ul>
+                        <li>
+                            This mode is a 1v1 Stock battle, with each player having 3 lives. The main difference in this mode is that test features are <b>employed</b>, which are slight modifications to the game that the developers are considering adding. The test features can be seen by clicking the button below the gamemode's card. Test Maps are also featured if there are any available.
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </article>
+    </div> <!--end of w-75-->
+    <article>
+        <div class="container-fluid">
+            <div class="row star">
+                
+                <div class="col-12 col-xxl-6 p-4 p-md-5 my-auto">
+                    <h1>Ranked</h1>
+                    <p>
+                        <b>Ranked</b> is a competitive game mode in Brawlhalla, played exclusively as 3-stock <b>1v1 or 2v2</b> matches on a map randomly selected from a reduced set of the available Maps. Additionally, there is a Seasonal Ranked Queue; similar to Brawl of the Week, this queue uses a different gamemode and alternates gamemodes each season.
+                    </p>
+                    <p>
+                        Every player has a starting overall ELO of <b>1200</b> (Silver 2) and every Legend has a starting ELO of <b>750</b> (Tin 1). Winning a match in Ranked mode will award Elo to both the Player Ranking and the Legend that was played. Losing, however, will result in a <b>deduction</b> of Elo.
+                    </p>
+                    <p>
+                        Playing Ranked is the only way to achieve <b>Glory</b>. Glory is earned at the end of each Season for 1v1 and 2v2 queues, while Glory can be earned mid-season by winning a certain amount of games or placing a certain rank in the Seasonal Ranked Queue.
+                    </p>
+                </div>
+                <div class="col-12 col-xxl-6 px-0 shrinkable"> <img class="laneImg" src="img/Ranked.png" alt="Ranked" title="Ranked"></div>
+            </div>
+        </div>
+    </article>
+    <article>
+        <div class="row p-5 w-100">
+            
+                <div class="mx-auto col-12 col-md-5">
+                    <section>
+                        <h2>Placements</h2>
+                        <p>
+                            Each season, the first <b>10</b> ranked matches count as the player's placements matches. These matches have a <b>greater</b> impact on the player's Elo, giving <b>3 times</b> the Elo gain/loss for personal Elo in 1v1 and both personal and team Elo in 2v2. Additionally, the player's rating is <b>hidden</b> until the 10 matches are completed. Once a new season begins, the player's Elo will undergo a soft reset, and placement matches start again.
+                        </p>
+                        <p>
+                            Completing the 10 placement matches makes the player eligible for end-of-season rewards, including Ranked Avatars and Ranked Loading Frames.
+                        </p>
+                    </section>
+                </div>
+            
+                <div class="mx-auto col-12 col-md-5">
+                    <section>
+                        <h2>Rewards</h2>
+                        <p>
+                            Playing ranked allows players to unlock rewards exclusive to the mode. The following are granted at the end of the season:
+                        </p>
+                        <ul>
+                            <li><b>Glory</b>, a currency that can be used in the Store.</li>
+                            <li><b>Ranked Avatars</b>, which upgrade with best ranking each season.</li>
+                            <li>A <b>Loading Frame</b> based on your best ranking of the previous season.</li>
+                        </ul>
+                        <p>Rewards for the highest ranking, <b>Valhallan</b>, are instead granted immediately after reaching the rank:</p>
+                        <ul>
+                            <li>A <b>title</b> for the season you reached Valhallan.</li>
+                            <li>An <b>avatar</b> that has two states: "active" while in the Valhallan rank, and "inactive" after dropping lower.</li>
+                            <li>A loading <b>frame</b> that can only be used while in the Valhallan rank.</li>
+                        </ul>
+                    </section>
+                </div>
+        </div>
+    </article>
+    <article>
+        <div class="container-fluid">
+            <div class="row star">
+                <div class="col-12 col-xxl-6 px-0 shrinkable"> <img class="laneImg" src="img/Brawloftheweek.png" alt="Brawl of the week" title="Brawl of the week"></div>
+                <div class="col-12 col-xxl-6 p-4 p-md-5 my-auto">
+                    <h1>Brawl of the week</h1>
+                    <p>
+                        <b>Brawl of The Week</b> is one of the online queuing Modes present in the game. In these lobbies, a different special gamemode is rotated in every <b>Wednesday</b>. The bonus of Brawl Of The Week is that the winners get <b>300 Gold</b>. The prize, however, can only be claimed <b>once</b> per week by each player. After one week, the gamemode is changed and the prize is recharged, ready to be claimed again.
+                    </p>
+                    <p>
+                        Gamemodes that are available in the rotation include some modes that are available through Custom Online, but also modes that can't be played elsewhere. Depending on the gamemode, it is also possible to queue with a second player in the same lobby.
+                    </p>
+                    <p>
+                        Unlike other matchmaking modes, daily and Battle Pass missions can not be completed in Brawl Of The Week (unless otherwise specified).
+                    </p>
+                </div>
+            </div>
+        </div>
+    </article>
+    <aside class="p-3 bg-secondary text-white">
+        <h2>Unique gamemodes</h2>
+        <p>The following gamemodes are <b>unique</b> to Brawl of the Week and can not be accessed in Custom Online matches:</p>
+    </aside>
+    <article>
+        <div class="container-fluid" id="leafBG">       
+            <div class="row mb-5"></div>
+            <div class="row">
+                <div class="col-11 col-xl-3 mb-4 mb-xl-5 mx-auto px-5 py-4 leaf">
+                    <h3>Ghost Brawl</h3>
+                    <hr>
+                    <p>
+                        In this gamemode, all players are invisible, and jump in and out of invisibility when attacking. Damage is set to 200%, and all players have 3 lives. It has rotated in Brawl Of The Week in both 1v1 and 2v2 format.
+                    </p>
+                </div>
+                <div class="col-11 col-xl-3 mb-4 mb-xl-5 mx-auto px-5 py-4 leaf">
+                    <h3>Ghost in the Terminus</h3>
+                    <hr>
+                    <p>
+                        Similar to Ghost Brawl, players jump in and out of invisibility. The main difference is instead of being a Stock match, it is a 3 player free-for-all Timed match, with damage set to 300%.
+                    </p>
+                </div>
+                <div class="col-11 col-xl-3 mb-4 mb-xl-5 mx-auto px-5 py-4 leaf">
+                    <h3>Platform King</h3>
+                    <hr>
+                    <p>
+                        Who is the platform king? 4 Players face off on a map with 6 platforms. Stay on the red platform to score points. Hit your opponents to keep them from scoring. The platforms also move around the map, which makes moving around more difficult. The player with the most points at the end of a 2-minute timer wins.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-11 col-xl-3 mb-4 mb-xl-5 mx-auto px-5 py-4 leaf">
+                    <h3>Water Bomb Bash</h3>
+                    <hr>
+                    <p>
+                        Water Bomb Bash is a summer-themed gamemode. 6 players face off against each other with a 200% damage modifier and giant water bombs that continually spawn throughout the match. These water bombs create large explosions on impact that blast away anyone caught in it, even the player who threw it. Gain points for knocking people off the stage, the player with the most points winning at the end of the match.
+                    </p>
+                </div>
+                <div class="col-11 col-xl-3 mb-4 mb-xl-5 mx-auto px-5 py-4 leaf">
+                    <h3>Ghost Bubble Tag</h3>
+                    <hr>
+                    <p>
+                        A unique variant of Bubble Tag that mixes the invisibility mechanics of Ghost Brawl, teams of 2 face off in a Bubble Tag match where players are only visible when they attack. Bubbled players are not invisible. First team to 5 points wins.
+                    </p>
+                </div>
+                <div class="col-11 col-xl-3 mb-4 mb-xl-5 mx-auto px-5 py-4 leaf">
+                    <h3>Ghost Rooftop Rumble</h3>
+                    <hr>
+                    <p>
+                        This is a variant of Bounty with the invisibility mechanics of Ghost Brawl. Whoever gets the first KO is marked as the Bounty; eliminating the Bounty earns you more points, but also marks you as the Bounty. A unique aspect of this is the Bounty mark visual is not hidden, so whoever is marked can be tracked by their Bounty. The player with the most points at the end of the match wins.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </article>
+    </main>
+    <footer class="w-100 bg-dark p-4">
+        <p class="my-auto">@ 2023 Puskás Márk, dbonvv@inf.elte.hu</p>
+    </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+        <script src="js/styleswitcher.js"></script>
+    </body>
+</html>

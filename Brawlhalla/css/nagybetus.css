@@ -1,0 +1,10 @@
+﻿/* nagybetűs stílus */
+
+@import url('style.css');
+
+body {
+	font-size:2em;
+}
+a#nagybetu {display: none;}
+a#normalbetu {display: block;}
+
