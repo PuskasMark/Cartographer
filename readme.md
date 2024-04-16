@@ -2,6 +2,9 @@
 The goal in this game is to place the elements on the map strategically to collect points. 
 The player is presented with four randomized missions, which provide points according to the placement of the map elements.
 
+## Try it out
+[Open in Browser](https://puskasmark.github.io/Cartographer/)
+
 # Grid layout
 Upon starting the game, immerse yourself in an 11x11 grid landscape, meticulously crafted with hills and mountains in their rightful places.
 
